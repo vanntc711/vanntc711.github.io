@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TODO: đổi thành tên của bạn -->
+  <title>Your Name</title>
+  <meta name="description" content="Personal academic homepage of Your Name.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div class="page" id="top">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="header-text">
+      <h1 class="name">Your Name</h1>
+      <p>
+        My research focuses on <strong>recommender systems</strong> and <strong>large language models</strong>,
+        with particular emphasis on how LLM-based agents can remember, organize, and reason over user and item
+        information to deliver accurate and explainable recommendations.
+      </p>
+      <p>
+        I am a Ph.D. student in Computer Science at <a href="#">Your University</a>,
+        under the supervision of <a href="#">Prof. Advisor Name</a>.
+        Before that, I received my B.E. in Computer Science from <a href="#">Previous University</a>.
+      </p>
+      <p>If you're interested in working with me, please feel free to reach out!</p>
+      <p class="contact">
+        <a href="mailto:you@example.com">Email</a> &nbsp;/&nbsp;
+        <a href="files/CV.pdf">CV</a> &nbsp;/&nbsp;
+        <a href="https://scholar.google.com/citations?user=XXXXXXX">Google Scholar</a> &nbsp;/&nbsp;
+        <a href="https://github.com/your-username">GitHub</a>
+      </p>
+    </div>
+    <div class="header-photo">
+      <a href="images/profile.svg"><img src="images/profile.svg" alt="profile photo"></a>
+      <div class="position">
+        <strong>Ph.D. Student</strong><br>
+        School of Computer Science<br>
+        Your University
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== RESEARCH INTERESTS ===================== -->
+  <section id="research">
+    <h2>🔥 Research Interests</h2>
+    <p>My work spans two complementary directions:</p>
+    <p>
+      <strong>LLM-based Recommendation.</strong>
+      Building recommenders that use large language models to model user preferences from interaction
+      histories, with structured memory that scales to long and diverse behaviour sequences.
+    </p>
+    <p>
+      <strong>Conversational Recommendation.</strong>
+      Helping dialogue systems ground what users say in rich item knowledge, so that recommendations
+      adapt to each query and stay faithful across multi-turn conversations.
+    </p>
+    <!-- Tuỳ chọn: thêm hình roadmap như trang mẫu
+    <img class="roadmap" src="images/roadmap.svg" alt="Research roadmap">
+    -->
+  </section>
+
+  <!-- ===================== NEWS ===================== -->
+  <section id="news">
+    <h2>📰 News</h2>
+    <ul class="list">
+      <li><span class="year">2026.10</span> Two papers submitted to <em>WWW 2027</em>.</li>
+      <li><span class="year">2026.06</span> One paper accepted to <em>Conference</em>.</li>
+      <li><span class="year">2025.09</span> Started my Ph.D. at Your University.</li>
+    </ul>
+  </section>
+
+  <!-- ===================== HIGHLIGHT STUDIES ===================== -->
+  <section id="highlights">
+    <h2>🌟 Highlight Studies</h2>
+
+    <div class="paper highlight">
+      <div class="paper-thumb">
+        <img src="images/paper1.svg" alt="Paper 1 overview">
+        <div class="badges"><span class="badge hl">HIGHLIGHT</span><span class="badge venue">WWW</span></div>
+      </div>
+      <div class="paper-body">
+        <a class="paper-title" href="#">Title of Your Highlight Paper</a>
+        <div class="authors"><span class="me">Your Name</span>, Co-author A, Co-author B, Advisor Name</div>
+        <div><span class="venue">Conference</span>, 2027 &nbsp; <span class="award">(Oral Presentation)</span></div>
+        <div class="links"><a href="#">arXiv</a> / <a href="#">code</a> / <a href="#">project page</a></div>
+        <p class="tldr">One-sentence summary of what this paper does and why it matters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HONORS ===================== -->
+  <section id="honors">
+    <h2>🏆 Selected Honors</h2>
+    <ul class="list">
+      <li><span class="year">2026</span> <strong>Scholarship Name</strong> <em>(short note about how selective it is)</em>.</li>
+      <li><span class="year">2025</span> Outstanding Student Award, Your University.</li>
+      <li><span class="year">2024</span> Student Travel Award · Conference 2024</li>
+    </ul>
+  </section>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+  <section id="publications">
+    <h2>📑 Selected Studies <span class="note">(∗ equal contribution)</span></h2>
+
+    <!-- Copy khối .paper này cho mỗi bài báo. Thêm class "highlight" để tô nền vàng. -->
+    <div class="paper highlight">
+      <div class="paper-thumb">
+        <img src="images/paper1.svg" alt="Paper 1 overview">
+        <div class="badges"><span class="badge hl">HIGHLIGHT</span></div>
+      </div>
+      <div class="paper-body">
+        <a class="paper-title" href="#">Title of Your Highlight Paper</a>
+        <div class="authors"><span class="me">Your Name</span>, Co-author A, Co-author B, Advisor Name</div>
+        <div><span class="venue">Conference</span>, 2027</div>
+        <div class="links"><a href="#">arXiv</a> / <a href="#">code</a></div>
+        <p class="tldr">One-sentence summary of what this paper does and why it matters.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-thumb"><img src="images/paper2.svg" alt="Paper 2 overview"></div>
+      <div class="paper-body">
+        <a class="paper-title" href="#">Title of Your Second Paper</a>
+        <div class="authors">Co-author A*, <span class="me">Your Name*</span>, Advisor Name</div>
+        <div><span class="venue">Preprint</span>, 2026</div>
+        <div class="links"><a href="#">arXiv</a> / <a href="#">code</a></div>
+        <p class="tldr">One-sentence summary.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-thumb"><img src="images/paper3.svg" alt="Paper 3 overview"></div>
+      <div class="paper-body">
+        <a class="paper-title" href="#">Title of Your Third Paper</a>
+        <div class="authors"><span class="me">Your Name</span>, Co-author C, Advisor Name</div>
+        <div><span class="venue">Journal Name</span>, 2025</div>
+        <div class="links"><a href="#">paper</a> / <a href="#">code</a></div>
+        <p class="tldr">One-sentence summary.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TALKS ===================== -->
+  <section id="talks">
+    <h2>🎙️ Selected Talks</h2>
+    <h3>Invited Presentations</h3>
+    <ul class="list">
+      <li><span class="talk-title">“Talk Title”</span> &nbsp;<span class="year">2026</span> Venue / Institution</li>
+    </ul>
+    <h3>Conference Presentations</h3>
+    <ul class="list">
+      <li><span class="talk-title">“Paper Title”</span> &nbsp;<span class="year">2026</span> Conference — Oral Presentation</li>
+    </ul>
+  </section>
+
+  <footer>
+    Updated in October 2026<br>
+    <a href="#top">Back to Top</a> &nbsp;|&nbsp; <a href="https://jonbarron.info">Website Template</a>
+  </footer>
+
+</div>
+</body>
+</html>
